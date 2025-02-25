@@ -87,7 +87,9 @@
 
 ### Задача 4.1
 1) С помощью terraform подготовить ВМ для хранения бэкапов и 2 ВМ для кластера postgres
-2) Для запущенного приложения https://gist.github.com/AnastasiyaGapochkina01/472f54eddb8efc8a3397a9949d54c2bb поднять отказоустойчивый кластер postgres (master-slave) НЕ в docker. 
+2) Для запущенного приложения https://gist.github.com/AnastasiyaGapochkina01/472f54eddb8efc8a3397a9949d54c2bb поднять отказоустойчивый кластер postgres (master-slave) НЕ в docker:
+- руками
+- с помощью ansible
 3) Настроить резервное копирование по расписанию на удаленный сервер
 4) Переключить приложение на кластер и проверить работоспособность
 
